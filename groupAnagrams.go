@@ -41,3 +41,20 @@ func sortStr(s string) string {
 	}
 	return string(b)
 }
+
+//func groupAnagrams(strs []string) [][]string {
+//	m := make(map[[26]byte][]string)
+//	for i := range strs {
+//		tmp := strs[i]
+//		key := [26]byte{}
+//		for _, v := range tmp {
+//			key[v-'a']++
+//		}
+//		m[key] = append(m[key], tmp)
+//	}
+//	res := make([][]string, 0, len(m))
+//	for _, value := range m {
+//		res = append(res, value)
+//	}
+//	return res
+//}
